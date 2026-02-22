@@ -1,0 +1,46 @@
+/* Cards sections */
+.section-cards,
+.section-produtos {
+  padding: 190px 4vw 60px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.section-cards h2,
+.section-produtos h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card img {
+  width: 70%;
+  height: 200px;
+  object-fit: cover;
+}
+.card h3 {
+  margin: 15px 0 10px;
+}
+.card p {
+  padding: 0 15px 15px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;  /* adicione a transição */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* efeito de subir ao passar o mouse */
+}

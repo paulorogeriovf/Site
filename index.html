@@ -1,13 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hydra Piscinas</title>
+
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <link rel="icon" href="img/logofundobranco.jpg" type="image/png" />
 </head>
 <body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="img/logo2025.png" alt="Logo Hydra Piscinas" />
+        <span></span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="active">Início</a></li>
+        <li><a href="pages/servicos.html">Serviços</a></li>
+        <li><a href="pages/produtos.html">Produtos</a></li>
+        <li><a href="https://wa.me/5519999040358?text=Ol%C3%A1%2C+quero+mais+informa%C3%A7%C3%B5es.">Contato</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+    </nav>
 
-    <h1>Teste</h1>
-    
+    <!-- Onda SVG embaixo da navbar -->
+    <div class="wave-container">
+      <svg viewBox="0 0 1440 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <!-- Onda para baixo (invertida) -->
+        <path fill="#0a70ac" d="M0,0 C360,150 1080,0 1440,150 L1440,0 L0,0 Z"></path>
+      </svg>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-background"></div>
+    <div class="hero-content">
+      <h1>Hydra Piscinas</h1>
+      <p>A loja mais completa de Arthur Nogueira e região.</p>
+      <p>
+  A <strong>Hydra Piscinas</strong> é especializada em produtos e acessórios para piscinas,
+  oferecendo qualidade, variedade e atendimento especializado.
+</p>
+
+      <a href="#contato" class="btn-primary">Confira nossa localização</a>
+    </div>
+  </section>
+
+  <main>
+    <section id="servicos" class="section-cards">
+      <h2><a href="pages/servicos.html" class="servicos-link"><b>Nossos Serviços</b></a></h2>
+      <div class="cards">
+        <div class="card">
+          <img src="img/pool1.jpg" alt="Piscina modelo A" />
+          <h3>Manutenção</h3>
+          <p>Manutenção em geral como troca de areia ,LEDS , Bombas , Vinil entre outros.</p>
+        </div>
+        <div class="card">
+          <img src="img/pool2.jpg" alt="Piscina modelo B" />
+          <h3>Equipamentos e Produtos </h3>
+          <p>Em nossa loja trabalhamos com as melhores marcas do mercado , sempre buscando inovação !</p>
+        </div>
+        <div class="card">
+          <img src="img/pool3.jpg" alt="Piscina modelo C" />
+          <h3>Instalação</h3>
+          <p>Fazemos a Instalação de Filtros , Motobombas , Aquecedores ,Escadas entre outros itens.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contato" class="section-contato">
+  <h2></h2>
+
+   <div class="mapa">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.888649541014!2d-47.175852325461584!3d-22.574990426095887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c88dcad92ec1d3%3A0xd982cef844c9d3ab!2sHydra%20Piscinas%20e%20Lazer%20Loja!5e1!3m2!1spt-BR!2sbr!4v1752585366975!5m2!1spt-BR!2sbr"
+      width="100%"
+      height="250"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <p>Loja 1 - Rua Dr. Adhemar de Barros, 751</p>
+    <p>Centro - Arthur Nogueira - SP</p>
+  </div>
+
+  <div class="contato-cards">
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/5519999040358" target="_blank" class="contato-card">
+      <img src="img/whatsapp.png" alt="WhatsApp">
+      <p>(19) 99904-0358</p>
+    </a>
+
+    <!-- Email -->
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hydraacessorios@gmail.com" 
+       target="_blank" 
+       class="contato-card">
+      <img src="img/o-email.png" alt="E-mail">
+      <p>hydraacessorios@gmail.com</p>
+    </a>
+
+    <!-- Instagram -->
+   <a href="https://www.instagram.com/hydrapiscinas.lazer/" target="_blank" class="contato-card">
+  <img src="img/instagram.png" alt="Instagram">
+  <p>@hydrapiscinas.lazer</p>
+</a>
+
+
+  </div>
+
+<a>
+  🕒 Seg a Sex: 08h às 18h • Sáb: 08h às 12h30 • Dom/Feriados: Fechado
+</a>
+
+</section>
+
+  </main>
+
+<footer>
+  <div class="footer-container">
+
+    <div class="footer-left">
+      <p>© 2026 Hydra Piscinas • Todos os direitos reservados</p>
+      <p class="author">Desenvolvido por Paulo Rogério Vigário</p>
+    </div>
+
+    <div class="footer-center">
+      <p>Associados da ANNAP</p>
+      <img src="img/anapp.webp" alt="ANNAP">
+    </div>
+
+  </div>
+</footer>
+
+  <script src="js/global.js"></script>
+
+  <div class="popup" id="popup">
+  <div class="popup-content">
+    <span class="close-btn" id="close-popup">×</span>
+    <p>Você já sabe a litragem da sua piscina?</p>
+   <a href="pages/produtos.html#calculadora" class="popup-btn">Calcular agora</a>
+  </div>
+</div>
+
 </body>
 </html>
